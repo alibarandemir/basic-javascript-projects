@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/background3.jpeg) ;
+    background-repeat: repeat-x;
+    max-height: 100vh;
+}
+.container{
+    background-color:rgba(42, 42, 38, 0.8);
+    width: 500px;
+    box-shadow: 7px 5px rgba(0,0,0,0.2);
+    height: 600px;
+    position: relative;
+    top: 60px;
+    margin: auto; 
+}
+h1{
+    font-weight: bold;
+    font-stretch: condensed;
+    letter-spacing: 2px;
+    color: #d3b80b;
+    padding: 25px;
+    font-size: 45px;
+}
+.input-form{
+    display: flex;
+    justify-content: space-between;
+}
+.input-form input{
+    margin-left: 5%;
+    outline: none;
+    padding: 8px;
+    color: #ffff;
+    font-size: 15px;
+    border: 0;
+    background: none;
+    border-bottom: 2px solid #d3b80b;
+    width: 250px;
+    
+}
+
+
+.currentWeather{
+width: 100%;
+height: 100%;
+
+}
+
+#btn{
+    position: relative;
+    right: 50px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    color: aliceblue;
+    border: none;
+}
+#btn:hover{
+    background-color: rgba(3, 3, 3, 0.4);
+}
+.description{
+    color: aliceblue;
+    font-size: 30px;
+    width: 100%;
+    margin: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+.celcius{
+    color: aliceblue;
+    font-size: 50px;
+    margin:50px;
+    position: relative;
+    top: 40px;
+}
+.cityName{
+    color: #d3b80b;
+    margin: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+i{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #d3b80b;
+}

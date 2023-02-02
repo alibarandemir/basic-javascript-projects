@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e4eded;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+.container h1{
+   
+   position: relative;
+   top: 200px;
+   left: 0;
+   font-size: 50px;
+   letter-spacing: 5px;
+   font-weight: bolder;
+}
+.buttons{
+    position: absolute;
+    top: 60%;
+
+}
+.buttons button{
+    margin-right: 50px;
+    font-size: 25px;
+    background-color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.buttons button:hover{
+    background-color:#000;
+    color: whitesmoke;
+}
