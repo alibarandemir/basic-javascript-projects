@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.leftSide{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #000;
+    position: relative;
+}
+.leftSide h2{
+    color: #ffff;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+.logo{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid #ff1717;
+    position: fixed;
+    bottom: 180px;
+    left: 170px;
+}
+.logo img{
+    width: 300px;
+    height: 300px;
+}
+
+.rightSide{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #ffff;
+    position: relative;
+}
+.header{
+    position: absolute;
+    top:190px;
+    left: 170px;
+    
+}
+.header h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+.formElements{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.formElement:nth-child(1){
+    display: inline-block;
+    width: 195px;
+    margin-right: 30px;
+
+}
+.formElement:nth-child(2){
+    display: inline-block;
+    width: 195px;
+}
+.formElement{
+    width: 420px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 6px;
+    background-color: #3c403f;
+    border-radius: 10px;
+    color: #a1adab;
+    position: relative;
+}
+.formElement input{
+    border: none;
+    background: none;
+    width: 90%;
+    color: #ffff;
+    transition: all 2s ease-out;
+    margin: 5px 10px 2px 3px;
+    
+}
+.formElement input:focus{
+    outline: none;
+    border-bottom: 2px solid #ff1717;
+}
+.formElement i{
+    float:right; 
+    position:absolute;
+    top: 20px; 
+    right: 10px;
+    font-size: 18px;
+}
+#btn{
+    text-align: center;
+    background-color: #a1adab;
+    cursor: pointer;
+    box-shadow: #3c403f;
+    
+
+}
+#btn:hover{
+    opacity: 0.7;
+    
+}
+#btn p{
+    color: aliceblue;
+    font-size: 27px;
+    margin-top: 7px;
+}
