@@ -1,4 +1,3 @@
-//import { passwordStrength } from './node_modules/check-password-strength/dist/umd';
 //select dom elements
 var eyeIcon = document.getElementById("eyeIcon");
 var passwordInput = document.getElementById("password");
@@ -24,4 +23,4 @@ function changeIcon(){
 }
 
 
-console.log(passwordStrength("ASDDassd").value);
+
