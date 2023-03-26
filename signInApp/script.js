@@ -3,8 +3,8 @@ var eyeIcon = document.getElementById("eyeIcon");
 var passwordInput = document.getElementById("password");
 var passwordDom = document.getElementsByClassName("passwordStrength");
 var signInBtn = document.getElementById("btn");
+//styling dom element with js
 eyeIcon.style.cursor="pointer";
-
 eyeIcon.addEventListener("click",changeIcon);
 function changeIcon(){
     eyeIcon.classList.forEach((item)=>{
