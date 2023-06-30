@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>E-commerce product page</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/custom.css">  
+</head>
+<body class="bg-white">
+    <nav class=" container mx-auto h-20 w-9/12 border-b border-black-200 flex justify-center items-center mb-24 ">
+    <h2 class="font-bold text-3xl cursor-pointer grow-0  "><a href="http://127.0.0.1:5500/index.html">sneakers</a></h2>
+    <ul class="flex grow justify-center">
+      <li class="py-7 cursor-pointer mr-2 hover:border-b-4 border-orange-500 ">Collections</li>
+      <li class="py-7 cursor-pointer ml-16 hover:border-b-4 border-orange-500">Men</li>
+      <li class="py-7 cursor-pointer ml-16 hover:border-b-4 border-orange-500">Women</li>
+      <li class="py-7 cursor-pointer ml-16 hover:border-b-4 border-orange-500">About</li>
+      <li class="py-7 cursor-pointer ml-16 hover:border-b-4 border-orange-500">Contacts</li>
+    </ul>
+    <div id="basket" class="cursor-pointer">
+      <img src="./images/icon-cart.svg" alt="">
+      <div id="drop-down">
+        <h3>Card</h3>
+        <hr>
+        <div>
+          Your cart is empty!
+        </div>
+      </div>
+    </div>
+    <div class="grow-0 w-16 h-16 rounded-full border-2 border-orange-500 cursor-pointer ml-11">
+      <img class="" src="./images/image-avatar.png" alt="avatar">
+    </div>
+  </nav>
+
+  <div class="content flex justify-center h-2/3  ">
+    <div class="image-shown w-1/2 ">
+      <div id="bigImage" class="w-80 h-80 overflow-hidden ml-52 rounded-3xl ">
+        <img class="w-80 h-80" src="./images/image-product-1.jpg" alt="">
+      </div>
+      <div id="smallImages" class="flex h-32 ml-32 mt-10">
+          <img class="active rounded-lg mr-5" src="./images/image-product-1-thumbnail.jpg" alt="">
+          <img class="rounded-lg mr-5" src="./images/image-product-2-thumbnail.jpg" alt="">
+          <img class="rounded-lg mr-5" src="./images/image-product-3-thumbnail.jpg" alt="">
+          <img class="rounded-lg" src="./images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+    <div class="w-1/2">
+      <h3 class="text-orange-500 tracking-wider text-xl font-bold">Sneakers Company</h3>
+      <h1 class="text-4xl font-extrabold">Fall Limited<br> Sneakers</h1>
+      <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ut pariatur inventore quisquam hic. Dolorum optio debitis nemo eum tempore ipsam veniam velit aliquam dignissimos quae. Quo ipsa placeat magni.
+      </p>
+      <div class="price inline-block text-2xl font-bold mr-2">$125.00</div>
+      <div class="discount inline-block text-orange-500 bg-amber-200 rounded-md px-1">50%</div>
+      <div class="old-price opacity-60 line-through">$250.00</div>
+      <div class="flex mt-5">
+        <div class="flex space-x-9 items-center bg-slate-300 w-36 h-12 rounded-lg mr-6 pl-4">
+          <img id="minusBtn"  class="cursor-pointer scale-150" src="./images/icon-minus.svg" >
+          <span id="amount" class="text-2xl">0</span>
+          <img id="plusBtn" class="cursor-pointer scale-150" src="./images/icon-plus.svg" >
+        </div>
+        <div class="inline-block">
+          <button id="submitBtn" class="cursor-pointer text-lg rounded-xl w-72 h-12 text-white bg-orange-500 hover:opacity-80">Add to Card</button>
+        </div>
+  
+      </div>
+      
+    </div>
+  <div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
