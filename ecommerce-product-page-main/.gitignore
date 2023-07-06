@@ -2,12 +2,10 @@
 *.sketch
 *.fig
 node_modules/
-
-
 *.xd
 *.md
 css/*
 !css/custom.css
-# Avoid your project being littered with annoying .DS_Store files!
+
 .DS_Store
 .prettierignore

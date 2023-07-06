@@ -21,13 +21,14 @@
       <li class="py-7 cursor-pointer ml-16 hover:border-b-4 border-orange-500">About</li>
       <li class="py-7 cursor-pointer ml-16 hover:border-b-4 border-orange-500">Contacts</li>
     </ul>
-    <div id="basket" class="cursor-pointer">
-      <img src="./images/icon-cart.svg" alt="">
-      <div id="drop-down">
-        <h3>Card</h3>
+    <div id="basket" class="flex w-14 items-center relative ">
+      <img class="cursor-pointer w-8 h-8 inline-block mr-2" src="./images/icon-cart.svg">
+      <span class="rounded-xl text-white bg-orange-500 block w-5 h-5 text-center" id="product-amount">0</span>
+      <div id="drop-down" class="absolute rounded-lg hidden w-56 h-40 z-10 mt-56 bg-slate-50">
+        <h3 class="py-3 pl-2 font-bold">Card</h3>
         <hr>
         <div>
-          Your cart is empty!
+          
         </div>
       </div>
     </div>
